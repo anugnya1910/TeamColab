@@ -1,0 +1,25 @@
+
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Environment variables - never upload secrets
+.env
+.env.*
+!.env.example
+
+server/.env
+server/.env.*
+!server/.env.example
+
+client/.env
+client/.env.*
+!client/.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
